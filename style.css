@@ -7,18 +7,25 @@ border: 0;
 color:rgb(23, 23, 22);
 text-decoration: none;
 }
-@import url();
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 .main {
 font-size: 3vh;
+text-align: left;
+font-family: 'Montserrat', sans-serif;
+position: relative;
 }
 
 .honda1alinhamento{
 display: inline;
 float: right;
-width: 285px;
+width: 230px;
 height:175px;
 right: 40px;
+border-top: 5px solid;
+border-bottom: 5px solid;
+margin-bottom: 10px;
+border-color: #f733b9;
 
 }
 
@@ -29,19 +36,37 @@ display: inline;
 float: right;
 width: 200px;
 height:158;
-right: 40px;
+right: 10px;
+border-top: 5px solid;
+border-bottom: 5px solid;
+margin-bottom: 10px;
+border-color: #f733b9;
+
 
 }
 
 .hondagifalinhamento{
-position: relative;
-top: 120px;
+    
+display: inline;
+float: left;
+top: 10px;
 margin: auto;
-width: 280px ;
+width: 250px ;
 height: 110px;
+border-top: 5px solid;
+border-bottom: 5px solid;
+margin-bottom: 10px;
+border-color: #f733b9;
+
+
 
 }
 
+p {
+text-indent: 10px;
+position: relative;
+top: 80px;
+margin-top: 10px;
 
+}
 
-    
